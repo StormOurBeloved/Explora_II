@@ -1,0 +1,8 @@
+####################################################################################
+#Here the pseudocode for the project is stored, including functions and what they do
+####################################################################################
+
+#Instruments
+- Barometer (pressure, altitude, temperature(?))
+- Temperature (outside)
+- 
