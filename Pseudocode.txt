@@ -6,3 +6,11 @@
 - Barometer (pressure, altitude, temperature(?))
 - Temperature (outside)
 - 
+
+#Function
+##Get voltage function
+float getVoltage(int pin) {
+  int raw = analogRead(pin);
+  float voltage = raw * 5.0/1023.0;
+  return voltage;
+}
